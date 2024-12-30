@@ -20,7 +20,7 @@ const ProjectList = ({ projects }: { projects: IProjectsData[] }) => {
       variants={container}
       initial="hidden"
       animate="show"
-      className="w-full max-w-auto xs:max-w-3xl px-4 mx-auto lg:px-20 space-y-6 md:space-y-8 flex flex-col items-center"
+      className="w-full  selection: max-w-auto xs:max-w-3xl px-4 mx-auto lg:px-20 space-y-6 md:space-y-8 flex flex-col items-center"
     >
       {projects.map((project, index) => {
         return <ProjectLayout key={index} {...project} />;
